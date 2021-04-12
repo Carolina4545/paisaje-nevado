@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>paisaje nevado</title>
+	<meta name="author" content="Carolina pichardo">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<script src="https://kit.fontawesome.com/c3888b520a.js" crossorigin="anonymous"></script>
+	<style>
+
+	    *{
+	    	margin: 0px;
+	    	padding: 0px;
+	    	box-sizing: border-box;
+	    }
+	    @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+	    
+
+
+	     body{
+	     	font-family: "Raleway", Arial, Helvetica, sans-serif;
+	     	background-color: rgb(224,255,255);
+
+	     }
+	    
+
+	    
+
+		header{
+			/*background-image:linear-gradient(rgba(0,0,0,0.3),rgba(255,215,0,0.5)),url(img-nevado/nevado.jpg);
+			height: 800px;
+			background-size: cover;
+			
+			background-repeat: no-repeat;
+			padding-top: 100px;
+			margin-bottom: 10px;
+			*/
+			/*background-color: rgba(0,0,0,.5);*/
+			text-align: center;			
+			position: relative;
+			overflow:hidden;
+			min-width: 100%;
+			
+
+		}
+		/*video{
+			position: absolute;
+			left:50%;
+			top: 50%;
+			transform: translateX(-50%)translateY(-50%);			
+			z-index: -10;
+			min-width: 100%;
+			min-height: 100%;
+			
+		}*/
+		video{
+			position: fixed;
+			left:50%;
+			top: 50%;
+			transform: translateX(-50%)translateY(-50%);			
+			z-index: -100;
+			min-width: 100%;
+			min-height: 100%;
+			
+		}
+
+		h1,h2{
+			
+			text-align: center
+			color:black;
+			font-size: 30px;
+			margin: 20px auto 0px;
+			padding: 50px 50px;
+
+			
+		}
+		.titulo{
+			text-align: center;
+			color:crimson;
+			font-size: 50px;			
+			padding-top: 95px;
+			margin-bottom: 5px;
+			/*color: black;
+
+*/
+			color: white;
+			
+			
+
+		}
+		.subtitulo{
+			text-align: center;
+			color:crimson;
+			font-size: 50px;
+			padding-top:5px;
+			/*color: black;*/
+			color: white;
+			
+
+		}
+		.bienvenida{
+			display:flex;
+			flex-wrap: wrap;
+		}
+		.articulo{
+			flex-basis:250px;
+			flex-grow:1;
+			flex-shrink: 0;
+			padding:40px 20px;						
+			color:rgb(47,79,79);
+			text-align: center;
+
+			
+		}
+		.boton{
+			background-color:maroon;
+			color:white;
+			text-align: center;			
+			width: 100px;
+			padding: 20px 25px;					
+			margin: 10px auto 0px;
+			border-radius: 10px;
+			cursor: pointer;
+
+			
+
+		}
+		.colores{
+			
+			background-color: rgb(220,220,220);			 
+			padding: 50px;
+			text-align: center;
+
+		}
+		.contenedor_colores{
+			display:flex;
+			flex-wrap: wrap;
+		}
+		.color{
+			flex-basis:300px;
+			flex-grow:1;
+			flex-shrink: 0;
+			padding: 20px;
+			color:rgb(47,79,79);
+		}
+		.color .fas{
+			padding: 50px;
+			color:maroon;
+			font-size: 80px; 
+
+		}
+		
+		}
+		.paisaje{
+		
+			padding: 50px;
+			color: gray; 
+
+		 
+		
+			 
+
+		}
+		.nueva{
+			display:flex;
+			flex-wrap: wrap;
+			
+
+
+		}
+		.psj{
+			flex-basis:400px;
+			flex-grow:1;
+			flex-shrink: 0;
+			padding: 20px;
+			color:rgb(47,79,79);
+			text-align: center;
+			
+		}
+				
+		.boton1{
+			background-color:maroon;
+			color:white;
+			text-align: center;			
+			width: 100px;
+			padding: 20px 25px;			
+			margin:10px auto 0px;			
+			border-radius: 10px;
+			cursor: pointer;
+
+		}
+		.boton2{
+			background-color:maroon;
+			color:white;
+			text-align: center;			
+			width: 100px;			
+			padding:20px 25px;
+			margin: 10px auto 0px;
+			
+			border-radius: 10px;
+			cursor: pointer;
+
+		}
+		footer {
+			background-color:rgb(220,220,220);
+			height: 300px;
+		}
+		 .fa{
+			
+			font-size: 50px;
+			color: grey;
+			margin-top:150px;
+			
+		}
+		span{
+			color: black;
+		}
+		
+
+	</style>
+
+</head>
+
+<body>
+<header>
+	<h1 class="titulo">Snowfall</h1>
+	<h2 class="subtitulo">Lorem ipsum, dolor sit amet.<h2>
+<div>
+	<video src="img-nevado/Snow.mp4" autoplay muted loop></video>
+</div>		
+</header>
+<section class="bienvenida">		
+	<div class="articulo">
+		<h2>titulo1</h2>
+		<article>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis omnis iure quibusdam voluptas, nostrum vel vero quasi porro, mollitia eius.</article>
+		<div class="boton">boton</div>	
+	</div>		 
+	<div class="articulo">
+		<h2>titulo2</h2>
+		<article>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis omnis iure quibusdam voluptas, nostrum vel vero quasi porro, mollitia eius.</article>
+		<div class="boton">boton</div>
+	</div>
+	<div class="articulo">
+		<h2>titulo3</h2>
+		<article >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, eius, perferendis ea laudantium architecto a quo laborum eos. Temporibus, quam.</article>
+		<div class="boton">boton</div>
+	</div>
+</section>
+
+	
+
+	<section class="colores">
+		<h1>COLORES</h1>
+		<div class="contenedor_colores">
+			<div class="color">
+				<h2>titulo1</h2>
+				<i class="fas fa-database"></i>
+				<article>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis omnis iure quibusdam voluptas, nostrum vel vero quasi porro, mollitia eius.</article>			
+			</div>				 
+			<div class="color">
+				<h2>titulo2</h2>
+				<i class="fas fa-desktop"></i>
+				<article  >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, iste. Inventore, iste. Iusto sunt eos id, commodi vitae nam error!</article>		
+			</div>
+
+			<div class="color">
+				<h2>titulo3</h2>
+				<i class="fas fa-keyboard"></i>
+				<article >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, eius, perferendis ea laudantium architecto a quo laborum eos. Temporibus, quam.</article>
+				
+			</div>
+			<div class="color">
+				<h2>titulo3</h2>
+				<i class="fas fa-download"></i>
+				<article >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, eius, perferendis ea laudantium architecto a quo laborum eos. Temporibus, quam.</article>
+				
+			</div>
+		</div><!--contenedorcolores-->
+			
+	</section>
+	<h1>PAISAJES</h1>
+
+	<section class="paisaje">
+		<div class="nueva">
+		<div class="psj">
+			<h2>titulo1</h2>		
+			<article>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis omnis iure quibusdam voluptas, nostrum vel vero quasi porro, mollitia eius.</article>
+			<img  src="img-nevado/3.jpg" width="360px">
+			<div class="boton1">boton</div>			
+		</div>			 
+		<div class="psj">
+			<h2>titulo2</h2>		
+			<article>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, iste. Inventore, iste. Iusto sunt eos id, commodi vitae nam error! porro, mollitia eius.</article>
+			<img src="img-nevado/3.jpg" width="360px" >
+			<div class="boton1">boton</div>		
+		</div>
+		<div class="psj">
+			<h2>titulo3</h2>		
+			<article >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, eius, perferendis ea laudantium architecto a quo laborum eos. Temporibus, quam.</article>
+			<img src="img-nevado/3.jpg" width="360px">
+			<div class="boton1">boton</div>			
+		</div>
+		<div class="psj">
+			<h2 >titulo4</h2>		
+			<article>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, eius, perferendis ea laudantium architecto a quo laborum eos. Temporibus, quam.</article>
+			<img src="img-nevado/4.jpg" width="360px" >
+			<div class="boton2">boton</div>			
+		</div>
+		<div class="psj">
+			<h2>titulo5</h2>		
+			<article>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, eius, perferendis ea laudantium architecto a quo laborum eos. Temporibus, quam.</article>
+			<img  src="img-nevado/5.jpg" width="360px" >
+			<div class="boton2">boton</div>			
+		</div>
+		</div>
+		
+	</section>
+
+
+	<footer>
+		<center>	
+			<div >				
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a  href="#"> <i class="fa fa-facebook"></i></a>
+				<a  href="#"> <i class="fa fa-dribbble"></i></a>
+				<a  href="#"> <i class="fa fa-tumblr "></i></a>	
+				<center><span>CopyRight-Todos los derechos reservados &copy;2021</span></center>		
+			</div>
+		</center>
+		
+	</footer>
+	
+</body>
+</html>
